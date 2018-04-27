@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style1.css">
+<title>Home</title>
+
+</head>
+<body>
+
+<div class="navbar">
+<a class="navbar-brand" href="#" style= "text-shadow: 2px 2px 2px; font-weight: bold;color:#613D30 "> PASTEL BEANS®</a>
+  <a href="Home.html" style="color:#613D30 ">Home</a>
+  <a href="AboutUs.html" style="color: #613D30">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn" style="color:#613D30">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Hot_Drinks.html" >Hot Drinks</a>
+      <a href="colddrinks.html">Cold Drinks</a>
+      <a href="Pastries.html">Baking</a>
+    </div>
+  </div> 
+  <a href="Order_Form.html"style="color:#613D30" > Order Now</a>
+  <a href="contactus.html" style="color:#613D30">Contact Us</a>
+</div>
+<video width="700" height="500" autoplay="autoplay"  controls="controls">
+  <source src="video/Coffee Slo mo shot on Phantom Miro Lc320s.mp4" type="video/mp4">
+Your browser does not support the video tag. <!--appears if user's browser doesnt support video-->
+</video> 
+
+<img src="Images/pastelbean.png"/>
+<br/><br/><br/><br/><br/><br/>
+<p class="quote"> We can/t make all our choices in life , but we can choose our coffee</p>
+
+<p class="stylePadding">
+<a href="Hot_Drinks.html" ><img class="hotdrink" src ="Images/coffee.png" onmouseover="this.height=140;this.width=140;" onmouseout="this.height=90;this.width=90"/>
+</a>
+<a href="colddrinks.html" ><img class="colddrink"src= "Images/coffee2.png"/></a>
+<a href="Pastries.html" ><img class="d"src= "Images/last3.png"/></a>
+</p>
+
+<br/>
+
+<h1 style="color:#613D30;margin-left:13em " > Wanna Know Our Most Popular?</h1>
+<img style="margin-left:13em" class="popular"src=  "Images/caramechino.jpg"/>
+<img class="popular"src=  "Images/matchalatte.jpg"/>
+<img class="popular"src= "Images/azure.jpg"/>
+<br/>
+<br/>
+<footer style="background-color:#613D30; text-align: center" >
+<img style=" width:30px;height:30px " src="Images/twitter.png"/><a href="https://twitter.com " target="_blank">twitter.com </a>
+<img style=" width:30px;height:30px " src="Images/instagram.png"/><a href="https://www.instagram.com " target="_blank">instagram.com </a>
+<p id="date" style="color:white"></p>
+</footer>
+<script>
+document.getElementById("date").innerHTML = new Date();
+</script>
+
+
+</body>
+</html>
